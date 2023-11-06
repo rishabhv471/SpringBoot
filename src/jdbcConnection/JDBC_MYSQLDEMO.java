@@ -32,7 +32,7 @@ public class JDBC_MYSQLDEMO {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vwits","root", "Try@1234");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vwits","root", "Your password for mysql");
 			st = con.createStatement();
 			rs = st.executeQuery("select * from vwits_emp where dept ='hr'");
 			while (rs.next())
