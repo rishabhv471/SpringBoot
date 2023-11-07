@@ -1,4 +1,4 @@
-package myjdbcprorams;
+package myjdbcprograms;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -10,7 +10,7 @@ import dbconnectionutilities.DBConnectionFactory_MYSQL;
 execute() returns a boolean value and is used to execute SQL statements written 
 as a String object
 */
-public class JDBC_Execute {
+public class Execute {
 
 	public static void main(String[] args) throws Exception{
 		//fetching the db connection from the external file!

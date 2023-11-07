@@ -1,4 +1,4 @@
-package myjdbcprorams;
+package myjdbcprograms;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -21,7 +21,7 @@ execute SQL statements that have no parameters
 5.A PreparedStatement is precompiled, hence it is immediately executed by the DBMS, unlike Statement, which has to be compiled first
  */
 //CRUD OPERATION(CREATE(INSERT),READ(SELECT),UPDATE,DELETE)
-public class JDBC_MYSQL_INSERTDemo {
+public class INSERTDemo {
 	// SQLException is a checked exception! public static void main(String[] args) throws Exception {
 	  // loading the mysql driver
 	  // drivername is case sensitive

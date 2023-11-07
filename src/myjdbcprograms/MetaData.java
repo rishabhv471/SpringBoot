@@ -1,4 +1,4 @@
-package myjdbcprorams;
+package myjdbcprograms;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
@@ -8,7 +8,7 @@ import java.sql.ResultSetMetaData;
 
 import dbconnectionutilities.DBConnectionFactory_MYSQL;
 
-public class JDBCMetaDataDemos {
+public class MetaData {
 
 	public static void main(String[] args) throws Exception 
 	{
